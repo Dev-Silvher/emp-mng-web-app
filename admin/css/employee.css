@@ -1,0 +1,43 @@
+/*
+Author: Silvher
+Date: June 7, 2020
+*/
+.employee-user{
+    min-height: 500px;
+}
+
+.employee-contact{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 740px) {
+    .employee-contact{
+        width: 50%;
+    }
+}
+
+.panel-info{
+    box-shadow:  5px 10px 18px #888888;
+}
+
+.panel-info > .panel-heading{
+    color:white;
+    background-image: linear-gradient(to bottom,#3090C7 0,#265a88 100%)
+}
+
+.panel-info > .panel-body{
+    padding: 30px 15px 0 15px;
+}
+
+.panel-body > form > div{
+    margin-bottom: 25px;
+}
+
+.reg-employee{
+    border-top: 1px solid#888; 
+    padding-top:15px; 
+    font-size:85%
+}

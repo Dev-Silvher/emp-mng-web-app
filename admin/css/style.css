@@ -1,0 +1,49 @@
+/*
+Author: Silvher
+Date: June 6, 2020
+*/
+.navbar-inverse
+{
+    border-bottom-color: #004D40;
+    background-image: linear-gradient(to bottom,#151B54 0,#265a88 100%)
+}
+.navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>.dropdown>a .caret
+{
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-nav>li>.dropdown-menu
+{
+    background:#4DB6AC;
+}
+.nav-pills>li>a{
+    color: #303F9F;
+}
+.nav>li>a:hover, .nav>li>a:focus
+{
+    background-color: #EEEEEE;
+}
+.active{
+  background-color: #337ab7;
+  color: #fff;
+  border-right: 1px solid #111;
+}
+#side-nav > ul {
+  border-right:1px solid #eee;
+}
+.bk-primary {
+  background: #325d88;
+}
+.bk-success {
+  background: #93c54b;
+}
+.bk-warning {
+  background: #f47c3c;
+}
+.bk-danger {
+  background: #d9534f;
+}
+
+.panel-heading{
+  padding: 0;
+}

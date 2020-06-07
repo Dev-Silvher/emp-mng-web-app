@@ -1,0 +1,14 @@
+/*
+Author: Silvher
+Date: June 7, 2020
+*/
+table > thead {
+    background-color: #848482;
+    color: #eee;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+tr:hover td{
+    background-color: #6495ed;
+}
