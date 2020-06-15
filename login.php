@@ -30,7 +30,7 @@ include('include/header.php');
 						<label>
 						  <input  type="checkbox" id="remember" name="remember" <?php if(isset($_COOKIE["loginId"])) { ?> checked <?php } ?>> Remember me
 						</label>
-						<label><a href="forget_password.php">Forget your password</a></label>	
+						<label><a href="forgot_password.php">Forgot your password?</a></label>	
 					  </div>
 					</div>
 					<div class="form-group">                               

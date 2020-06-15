@@ -13,7 +13,7 @@ include('include/header.php');
 	<div class="col-md-6">                    
 		<div class="panel panel-info" >
 			<div class="panel-heading">
-				<div class="panel-title">Forget Password</div>                        
+				<div class="panel-title">Forgot Password?</div>                        
 			</div> 
 			<div style="padding-top:30px" class="panel-body" >
 				<?php if ($errorMessage != '') { ?>
